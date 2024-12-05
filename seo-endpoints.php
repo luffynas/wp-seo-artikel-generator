@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WP SEO Endpoints For Artikel Generator
  * Description: Adds custom REST API endpoints for Yoast SEO and Rank Math SEO.
- * Version: 1.2
+ * Version: 1.2.1
  * Author: luffynas
  */
 
