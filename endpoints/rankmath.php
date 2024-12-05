@@ -1,5 +1,9 @@
 <?php
 
+// -- Menghapus canonical URL untuk RankMath
+// DELETE FROM wp_postmeta
+// WHERE meta_key = 'rank_math_canonical_url';
+
 // Fungsi untuk menyimpan data SEO Rank Math
 function rankmath_save_seo_data( WP_REST_Request $request ) {
     $post_id = $request->get_param( 'post_id' );

@@ -1,5 +1,9 @@
 <?php
 
+// -- Menghapus canonical URL untuk Yoast SEO
+// DELETE FROM wp_postmeta
+// WHERE meta_key = '_yoast_wpseo_canonical';
+
 // Fungsi untuk menyimpan data SEO Yoast
 function yoast_save_seo_data( WP_REST_Request $request ) {
     $post_id = $request->get_param( 'post_id' );
